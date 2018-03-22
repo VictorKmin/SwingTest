@@ -38,8 +38,7 @@ public class SimpleGUI extends JFrame{
         @Override
         public void actionPerformed(ActionEvent e) {
             String messege = "";
-//            messege += "Was Tested\n";
-            messege += "Test is " + inpt.getText() + "\n";
+            messege += "Text is " + inpt.getText() + "\n";
             messege += (radio1.isSelected()? "Radio #1" : "Radion#2" + " is selected \n");
             messege += "Checkbox is " + ((check.isSelected()) ? "cheked":"unchecked" );
             JOptionPane.showMessageDialog(null, messege,"Output", JOptionPane.PLAIN_MESSAGE);
